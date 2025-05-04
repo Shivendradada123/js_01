@@ -15,10 +15,48 @@ const umar = 18;
 5
 console.log(umar)
 
-
+//data 
 
 //numbers
 let num = 2009;
 console.log(num + 1 )
 
-//aur baaki ka kal karte hai light nhi hai
+//strings
+let first_name = "shivendra"
+const  last_name = 'saket'
+console.log(first_name + ' ' +  last_name)
+
+//booleans
+
+let login_ = true
+
+console.log(login_)
+
+let logout_ = false
+
+console.log(logout_)
+
+
+//null
+
+let last_login_date = null
+console.log(last_login_date)
+
+//undefined
+let last_logout_date = undefined
+console.log(last_logout_date)
+
+
+//objects
+
+const person = {
+ first_name: 'shivendra',
+ last_name: 'saket',
+age: 16,
+last_login_date: null,
+
+
+ 
+}
+
+console.log(person)
